@@ -21,7 +21,7 @@ section, header, footer{
 }
 
 header{
-    padding-top: 10rem;
+    padding-top: 15rem;
 }
 
 footer{
@@ -32,13 +32,15 @@ P{
     font-size: 1.25rem;
     line-height: 1.8rem;
     letter-spacing: 0.015rem;
-    padding-top: 5rem;
+    padding-top: 3rem;
 }
 
 blockquote {
     hanging-punctuation: first;
     padding-top: 3rem;
     font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.01rem;
 
 }
 
@@ -54,7 +56,7 @@ hr{
 .r{
     display: grid;
     grid-template-columns: 40%;
-
+    padding-top: 2rem;
 }
 
 .c{
@@ -87,6 +89,8 @@ hr{
     font-style: italic;
     padding-top: 2rem;
     line-height: 2rem;
+    letter-spacing: 0.02rem;
+    width: 80%;
 }
 
 h2{
@@ -94,6 +98,7 @@ h2{
     font-weight: bold;
     line-height: 2rem;
     font-size: 1.2rem;
+    letter-spacing: 0.02rem;
 }
 
 .mark{
