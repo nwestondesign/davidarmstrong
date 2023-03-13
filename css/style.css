@@ -1,0 +1,115 @@
+/*-- CSS reset --*/
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    line-height: 1em;
+}
+
+body{
+    background: #D6D0B1;
+    color: #435334;
+    font-family: ibm-plex-serif;
+}
+
+section, header, footer{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+header{
+    padding-top: 10rem;
+}
+
+footer{
+    padding-top: 5rem;
+}
+
+P{
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.015rem;
+    padding-top: 5rem;
+}
+
+blockquote {
+    hanging-punctuation: first;
+    padding-top: 3rem;
+    font-size: 1.5rem;
+
+}
+
+hr{
+    width: 70%;
+    margin: auto;
+    height: 2px;
+    color:#435334;
+    background-color: #435334;
+    border: 0 none;
+}
+
+.r{
+    display: grid;
+    grid-template-columns: 40%;
+
+}
+
+.c{
+    display: flex;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+.r2{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 10px;
+}
+
+.c3{
+    display: flex;
+    align-items: flex-end;
+    justify-content: baseline;
+}
+
+.back{
+    background-color: #435334;
+    margin: auto;
+
+    color: #D6D0B1;
+    padding-top: 4rem;
+}
+
+#Lancefield{
+    font-style: italic;
+    padding-top: 2rem;
+    line-height: 2rem;
+}
+
+h2{
+    padding-top: 2rem;
+    font-weight: bold;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+
+.mark{
+    display: flex;
+    align-items: baseline;
+    padding-top: 3rem;
+}
+
+.foot{
+    background-color: #435334;
+
+    color: #D6D0B1;
+}
+
+h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 3rem;
+}
