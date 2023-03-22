@@ -21,7 +21,7 @@ section, header, footer{
 }
 
 header{
-    padding-top: 15rem;
+    padding-top: 6rem;
 }
 
 footer{
@@ -45,7 +45,7 @@ blockquote {
 }
 
 hr{
-    width: 70%;
+    width: 1000px;
     margin: auto;
     height: 2px;
     color:#435334;
@@ -73,14 +73,12 @@ hr{
 
 .c3{
     display: flex;
-    align-items: flex-end;
-    justify-content: baseline;
+    align-items: flex-start;
 }
 
 .back{
     background-color: #435334;
     margin: auto;
-
     color: #D6D0B1;
     padding-top: 4rem;
 }
@@ -117,4 +115,16 @@ h1{
     font-size: 1.5rem;
     font-weight: bold;
     padding-bottom: 3rem;
+}
+
+.contact{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 15.5rem;
+    padding-top: 5rem;
+    
+}
+
+.l{
+    padding-right: 0.5rem;
 }
